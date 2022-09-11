@@ -75,7 +75,7 @@ header {
 
 .img-home {
     position: relative;
-    top: 4vh;
+    top: 2vh;
     z-index: -1;
 }
 
@@ -91,20 +91,25 @@ header {
     background: radial-gradient(circle at center, #656565 40%, transparent 40%); background-size: 15px 15px;
 }
 
+.testura-circulo {
+    position: relative;
+    top: -3vh;
+}
+
 .aspas-left, .aspas-right {
     font-size: 3rem;
 }
 
 .aspas-right {
     position: relative;
-    left: 80vw;
+    left: 85vw;
 }
 
 .descricao {
-    width: 360px;
+    width: 365px;
     position: relative;
     top: 2vh;
-    left: 55%;
+    left: 52%;
     transform: translate(-50%, 0);
 }
 
