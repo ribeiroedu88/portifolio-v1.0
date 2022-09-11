@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/jobs.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/contato.css">
+
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <div class="main">
+        <section class="home" id="home">
+            <header>
+                <nav class="navbar-menu">
+                    <ul>
+                        <li>
+                            <a href="#home"><span class="iconify" data-icon="ant-design:home-outlined"></span></a>
+                        </li>
+                        <li>
+                            <a href="#jobs"><span class="iconify" data-icon="fluent:design-ideas-16-regular"></span></a>
+                        </li>
+                        <li>
+                            <a href="#sobre"><span class="iconify" data-icon="bx:group"></span></a>
+                        </li>
+                        <li>
+                            <a href="#contato"><span class="iconify" data-icon="bx:mail-send"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="titulo">
+                <h1>eduardo</h1>
+                <h3>designer gráfico</h3>
+            </div>
+
+            <div class="img-home">
+                <img src="img/home-01-mobile.jpg" alt="foto eduardo"> 
+            </div>
+            
+            <div class="testura-circulo"></div>
+
+            <div class="descricao">
+                <span class="iconify aspas-left" data-icon="bxs:quote-left"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Essoloribus quisquam, optio, ad atque corrupti cum earum delectus repellat ut culpa consectetur! Consectetur!</p>
+                <span class="iconify aspas-right" data-icon="bxs:quote-right"></span>
+            </div>
+            
+        </section>
+
+        <section class="jobs" id="jobs">
+            <div class="img-jobs">
+                <img src="img/trampo-01.jpg" alt="">
+            </div>
+
+            <div class="testura-circulo--jobs"></div>
+
+            <div class="modal">
+
+                <a href="#">
+                    <div onclick="abrir()" class="modal-item">
+                        <div class="modal-item--icon">
+                            <img src="img/flyer.png" alt="">
+                        </div>
+                        <p>impressos</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="modal-item">
+                        <div class="modal-item--icon">
+                            <img src="img/gestao.png" alt="">
+                        </div>
+                        <p>redes sociais</p>
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="modal-item">
+                        <div class="modal-item--icon">
+                            <img src="img/pen-tool.png" alt="">
+                        </div>
+                        <p>motion designer</p>
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="modal-item">
+                        <div class="modal-item--icon">
+                            <img src="img/internet.png" alt="">
+                        </div>
+                        <p>web designer</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="listras"></div>
+
+        </section>
+
+        <section class="sobre" id="sobre">
+
+            <div class="titulo-sobre">
+                <h1>Sobre mim</h1>
+                <h3>experiência</h3>
+            </div>
+
+            <div class="testura-circulo--sobre"></div>
+
+            <div class="bg-sobre"></div>
+
+            <div class="img-sobre">
+                <img src="img/perfil.jpg" alt="">
+            </div>
+
+            <div class="descricao-sobre">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Essoloribus quisquam, optio, ad atque corrupti cum earum delectus repellat ut culpa consectetur! Consectetur!</p><br>
+                <a href=""><span class="leia-sobre">Leia mais</span></a>
+            </div>
+
+        </section>
+
+        <section class="contato" id="contato">
+            <form action="">
+                <fieldset class="form-fiel">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" required placeholder="Seu nome"><br>
+
+                    <label for="email">e-mail</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Seu e-mail"><br>
+
+                    <label for="tel">Telefone</label><br>
+                    <input type="number" name="tel" id="tel" placeholder="Seu celular"><br>
+
+                    <label for="msg">Mensagem</label><br>
+                    <textarea name="msg-text" id="msg-text" cols="60" rows="10"></textarea><br>
+
+                    <input type="button" value="Enviar" id="btn-enviar">
+                </fieldset>
+            </form>
+
+            <aside class="contato-icon">
+                <a href="https://wa.me/5511991834679" target="_blank">
+                    <div class="contato-cel">
+                        <img src="img/mobile-phone.png" alt="">
+                        <p>WhatsApp</p>
+                    </div>
+                </a>
+                <a href="mailto:ribeiroedu88@gmail.com" target="_blank">
+                    <div class="contato-email">
+                        <img src="img/airplane.png" alt="">
+                        <p>e-mail</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="contato-hobby">
+                        <img src="img/photo-camera-vintage.png" alt="">
+                        <p>Fotográfia</p>
+                    </div>
+                </a>
+            </aside>
+
+            <aside class="contato-bg">
+                <ul class="navbar--icons">
+                    <li>
+                        <a href="https://www.instagram.com/ribeiroedu63/" target="_blank" class="navbar-icons__icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/eduribeiro63/" target="_blank" class="navbar-icons__icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCcIkdGOZo4TbvIJC_HR3Thw" target="_blank" class="navbar-icons__icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            
+        </section>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.sobre {
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo-sobre {
+    position: relative;
+    top: 12vh;
+    left: 8vw;
+    display: inline-block;
+    z-index: 1;
+}
+
+.titulo-sobre h1 {
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+.titulo-sobre h3 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.img-sobre {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    top: -81px;
+    overflow: hidden;
+}
+
+.descricao-sobre {
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+    bottom: 45vh;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow:  0px 0px 15px 1px rgba(55, 55, 55, 0.494);
+}
+
+.descricao-sobre p {
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    margin: 0;
+}
+
+.descricao-sobre, .leia-mais {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.descricao-sobre span {
+    padding: 10px 90px;
+    background: rgb(193, 129, 10);
+}
+
+.testura-circulo--sobre {
+    width: 210px;
+    height: 75px;
+    background: radial-gradient(circle at center, #656565 40%, transparent 40%); background-size: 15px 15px;
+}
+
+.testura-circulo--sobre {
+    position: relative;
+    top: 13vh;
+    z-index: 7000;
+}
