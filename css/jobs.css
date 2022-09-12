@@ -18,7 +18,7 @@
 
 .img-jobs {
     width: 85vw;
-    height: 90vh;
+    height: 85vh;
     overflow: hidden;
     position: relative;
     top: 57%;
@@ -40,7 +40,7 @@
     width: 90vw;
     height: 25vh;
     position: relative;
-    bottom: 88vh;
+    bottom: 90vh;
     left: 10vw;
     z-index: -1;
     display: block;
@@ -57,7 +57,7 @@
 }
 
 .modal-item {
-    width: 295px;
+    width: 300px;
     height: 100px;
     display: flex;
     align-items: center;
