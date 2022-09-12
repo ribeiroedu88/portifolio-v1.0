@@ -35,9 +35,9 @@
     width: 95vw;
     margin: 0 auto;
     position: relative;
-    bottom: 45vh;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(3px);
+    bottom: 50vh;
+    background: rgba(255, 255, 255, 0.177);
+    backdrop-filter: blur(2px);
     border-radius: 10px;
     padding: 20px;
     box-shadow:  0px 0px 15px 1px rgba(55, 55, 55, 0.494);
