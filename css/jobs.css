@@ -3,7 +3,7 @@
 .jobs {
     width: 100vw;
     height: 100vh;
-    /* background: rgba(255, 0, 0, 0.294); */
+    background: rgba(255, 0, 0, 0.294);
 }
 
 .testura-circulo--jobs {
@@ -11,16 +11,17 @@
     height: 75px;
     background: radial-gradient(circle at center, #656565 40%, transparent 40%); background-size: 15px 15px;
     position: relative;
-    top: -62vh;
+    top: -80vh;
     right: -50vw;
     z-index: 1;
 }
 
 .img-jobs {
     width: 85vw;
+    height: 95vh;
     overflow: hidden;
     position: relative;
-    top: 50%;
+    top: 60%;
     left: 0;
     transform: translate(0, -50%);
 }
@@ -37,9 +38,9 @@
 
 .listras {
     width: 90vw;
-    height: 40vh;
+    height: 25vh;
     position: relative;
-    bottom: 95vh;
+    bottom: 93vh;
     left: 10vw;
     z-index: -1;
     display: block;
@@ -48,16 +49,16 @@
 .modal {
     width: 100vw;
     position: relative;
-    bottom: 470px;
+    top: -75vh;
     display: flex;
     flex-direction: column;
     padding-left: 65px;
-    gap: 25px;
+    gap: 20px;
 }
 
 .modal-item {
-    width: 300px;
-    height: 120px;
+    width: 280px;
+    height: 100px;
     display: flex;
     align-items: center;
     padding: 20px;
