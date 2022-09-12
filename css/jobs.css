@@ -11,7 +11,7 @@
     height: 75px;
     background: radial-gradient(circle at center, #656565 40%, transparent 40%); background-size: 15px 15px;
     position: relative;
-    top: -75vh;
+    top: -73vh;
     right: -50vw;
     z-index: 1;
 }
@@ -21,14 +21,14 @@
     height: 85vh;
     overflow: hidden;
     position: relative;
-    top: 57%;
+    top: 10vh;
     left: 0;
-    transform: translate(0, -50%);
+    /* transform: translate(0, -50%); */
 }
 
 .img-jobs img {
     width: 250vw;
-    margin-left: -160px;
+    margin-left: -185px;
 }
 
 .listras {
@@ -40,7 +40,7 @@
     width: 90vw;
     height: 25vh;
     position: relative;
-    bottom: 90vh;
+    bottom: 88vh;
     left: 10vw;
     z-index: -1;
     display: block;
@@ -62,10 +62,10 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.069);
+    backdrop-filter: blur(2px);
     border-radius: 10px;
-    box-shadow:  0px 0px 15px 1px rgba(55, 55, 55, 0.494);
+    box-shadow:  0px 0px 15px 1px rgba(55, 55, 55, 0.500);
     gap: 15px;
     cursor: pointer;
 }
