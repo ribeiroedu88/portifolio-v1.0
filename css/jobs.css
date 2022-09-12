@@ -3,7 +3,7 @@
 .jobs {
     width: 100vw;
     height: 100vh;
-    background: rgba(255, 0, 0, 0.294);
+    /* background: rgba(255, 0, 0, 0.294); */
 }
 
 .testura-circulo--jobs {
@@ -11,7 +11,7 @@
     height: 75px;
     background: radial-gradient(circle at center, #656565 40%, transparent 40%); background-size: 15px 15px;
     position: relative;
-    top: -73vh;
+    top: -68vh;
     right: -50vw;
     z-index: 1;
 }
@@ -40,16 +40,16 @@
     width: 90vw;
     height: 25vh;
     position: relative;
-    bottom: 90vh;
+    bottom: 65vh;
     left: 10vw;
     z-index: -1;
-    display: block;
+    /* display: block; */
 }
 
 .modal {
     width: 100vw;
     position: relative;
-    top: -70vh;
+    top: -60vh;
     display: flex;
     flex-direction: column;
     padding-left: 65px;
