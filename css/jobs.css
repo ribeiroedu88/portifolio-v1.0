@@ -3,7 +3,7 @@
 .jobs {
     width: 100vw;
     height: 100vh;
-    /* background: rgba(255, 0, 0, 0.294); */
+    background: rgba(255, 0, 0, 0.294);
 }
 
 .testura-circulo--jobs {
@@ -40,7 +40,7 @@
     width: 90vw;
     height: 25vh;
     position: relative;
-    bottom: 88vh;
+    bottom: 90vh;
     left: 10vw;
     z-index: -1;
     display: block;
